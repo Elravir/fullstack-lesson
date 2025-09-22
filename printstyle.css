@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+header{
+    display: none;
+}
+footer{
+    display: none;
+}
+main{
+    font-size: 0;
+    height: 100%;
+}
+article{
+    display:inline-block;
+    width:100%;
+    min-height: 100%;
+    border: 2px solid #cc00cc;
+    box-sizing: border-box;
+    font-size:initial;
+}
+.menu {
+    display:none;
+    line-height: 100px;
+    text-align: center;
+    font-size:initial;
+    background-color: aliceblue; 
+}
+.right-sidebar{
+    display:none;
+    width:20%;
+    min-height:300px;
+    border: 2px solid #00cc18;
+    box-sizing: border-box;
+    font-size:initial;
+}
