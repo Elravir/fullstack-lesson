@@ -12,34 +12,36 @@ footer{
     height: 100px;
     border: 2px solid #0099cc;
 }
-main{
-    font-size: 0;
-}
-article{
-    display:inline-block;
-    width:80%;
-    min-height: 300px;
-    border: 2px solid #cc00cc;
-    box-sizing: border-box;
-    font-size:initial;
-    vertical-align: top;
-}
 .menu {
     display:block;
-    line-height: 100px;
+    line-height: 80px;
     text-align: center;
     font-size:initial;
     background-color: aliceblue; 
 }
-.right-sidebar{
-    display:inline-block;
-    width:20%;
-    min-height:300px;
+main {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+article {
+    display: table-cell;
+    width: 80%;
+    border: 2px solid #cc00cc;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding: 16px; /* опционально */
+}
+
+.right-sidebar {
+    display: table-cell;
+    width: 20%;
     border: 2px solid #00cc18;
     box-sizing: border-box;
-    font-size:initial;
     vertical-align: top;
-
+    padding: 16px; /* опционально */
 }
 h1 {
     margin: 0;

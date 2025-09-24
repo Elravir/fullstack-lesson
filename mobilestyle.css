@@ -12,9 +12,16 @@ footer{
     height: 100px;
     border: 2px solid #0099cc;
 }
+.menu {
+    display:block;
+    line-height: 80px;
+    text-align: center;
+    font-size:initial;
+    background-color: aliceblue; 
+}
 main{
     font-size: 0;
-    height: calc(100% - 250px); 
+    
 }
 article{
     display:block;
@@ -23,13 +30,6 @@ article{
     border: 2px solid #cc00cc;
     box-sizing: border-box;
     font-size:initial;
-}
-.menu {
-    display:block;
-    line-height: 100px;
-    text-align: center;
-    font-size:initial;
-    background-color: aliceblue; 
 }
 .right-sidebar{
     display:block;
